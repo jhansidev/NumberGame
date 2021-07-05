@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="game">
+    <form id="guess-number" class="form" name="guessform" action="javascript:submitData();">
+        <h1>Number Guessing Game</h1>
+        <p>Please enter a low number and high number for our guessing game Ex:(1-100)</p>
+        <div class="mainform">
+            <label for="minnumber">Bottom of range:
+                <input type="text" id="minnumber" name="min-number" class="number_field"><br><br> </label>
+            <label for="maxnumber">Top of range:
+                <input type="text" id="maxnumber" name="max-number" class="number_field top"><br><br> </label>
+
+            <button id="guess" type="submit" class="button">PlayGame!</button>
+
+        </div>
+
+    </form>
+    <div id="output"></div>
+</div>
+
+<script src="script.js" type="text/javascript"></script>
+</body>
+
+</html>
